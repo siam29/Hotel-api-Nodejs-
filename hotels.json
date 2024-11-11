@@ -1,0 +1,72 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "slug": "hotel-sunshine",
+      "images": ["image1.jpg", "image2.jpg"],
+      "title": "Hotel Sunshine",
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 100,
+      "bathroom_count": 50,
+      "amenities": ["Free WiFi", "Pool", "Gym"],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "room1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2
+        },
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-2",
+          "room_image": "room2.jpg",
+          "room_title": "City View Room",
+          "bedroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "ocean-view",
+      "images": ["image3.jpg", "image4.jpg"],
+      "title": "Ocean View",
+      "description": "Enjoy the beautiful ocean views from this Miami hotel.",
+      "guest_count": 150,
+      "bedroom_count": 80,
+      "bathroom_count": 40,
+      "amenities": ["Free WiFi", "Beach Access", "Restaurant"],
+      "host_information": {
+        "host_name": "Jane Smith",
+        "contact": "jane.smith@example.com"
+      },
+      "address": "456 Ocean Blvd, Miami, FL",
+      "latitude": 25.7617,
+      "longitude": -80.1918,
+      "room_information": [
+        {
+          "hotel_slug": "ocean-view",
+          "room_slug": "room-1",
+          "room_image": "room1.jpg",
+          "room_title": "Oceanfront Suite",
+          "bedroom_count": 2
+        },
+        {
+          "hotel_slug": "ocean-view",
+          "room_slug": "room-2",
+          "room_image": "room2.jpg",
+          "room_title": "Standard Room",
+          "bedroom_count": 1
+        }
+      ]
+    }
+  ]
+}
